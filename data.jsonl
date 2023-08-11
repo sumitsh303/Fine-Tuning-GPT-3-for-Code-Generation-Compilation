@@ -1,0 +1,3 @@
+{"prompt":"Insert K:{K},V:{V}","completion":" typedef std::map<int,int> DB;\n\nDB MyDB;\n\nMyDB[{K}]={V}; END"}
+{"prompt":"Append K:{K},V:{V}","completion":" MyDB[{K}]={V}; END"}
+{"prompt":"Print","completion":" for(const auto& value : MyDB) {\n    std::cout << \"Key: \" << value.first << \", Value: \" << value.second << std::endl;\n} END"}
